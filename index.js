@@ -2,7 +2,7 @@ const func1 = async() => {
     setTimeout(()=>{console.log('func 1...')}, 1000);
 }
 
-const func2 = () => {
+const func2 = async() => {
     setTimeout(()=>{console.log('func 2...')}, 1000);
 
 }
